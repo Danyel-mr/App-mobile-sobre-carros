@@ -1,0 +1,736 @@
+{
+    "comentarios": [
+        {
+            "_id": 1,
+            "carId": 1,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-02-11T10:40-0300",
+            "rating": 10,
+            "content": "Um dos carros mais puros que já foram feitos. Sem controle de tração, só você e a máquina."
+        },
+        {
+            "_id": 2,
+            "carId": 1,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-03-03T21:55-0300",
+            "rating": 9,
+            "content": "O som do V8 biturbo é arrepiante. Perde ponto só pelo conforto, que é quase zero."
+        },
+        {
+            "_id": 3,
+            "carId": 1,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-05-12T17:00-0300",
+            "rating": 10,
+            "content": "Sonho de consumo desde criança. Para mim, o Ferrari definitivo."
+        },
+        {
+            "_id": 4,
+            "carId": 2,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-08-02T09:40-0300",
+            "rating": 9,
+            "content": "O design é inesquecível. Parece uma nave que pousou na rua."
+        },
+        {
+            "_id": 5,
+            "carId": 2,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-08-03T11:00-0300",
+            "rating": 8,
+            "content": "Lindo demais, mas a visibilidade traseira é um desafio de verdade."
+        },
+        {
+            "_id": 6,
+            "carId": 2,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-03-02T21:55-0300",
+            "rating": 10,
+            "content": "Tive o pôster dele no quarto. Ver ao vivo foi emocionante."
+        },
+        {
+            "_id": 7,
+            "carId": 3,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-02-08T18:55-0300",
+            "rating": 10,
+            "content": "Um clássico atemporal. Leve, direto e muito divertido de dirigir."
+        },
+        {
+            "_id": 8,
+            "carId": 3,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-02-19T17:40-0300",
+            "rating": 9,
+            "content": "O rabo de pato virou marca registrada. Valorização absurda nos leilões."
+        },
+        {
+            "_id": 9,
+            "carId": 3,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-04-08T08:55-0300",
+            "rating": 9,
+            "content": "Poucos carros antigos ainda entregam essa sensação de conexão com a estrada."
+        },
+        {
+            "_id": 10,
+            "carId": 4,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-03-10T14:12-0300",
+            "rating": 9,
+            "content": "Muscle car com alma de corrida. O ronco do V8 enche a alma."
+        },
+        {
+            "_id": 11,
+            "carId": 4,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-04-19T12:55-0300",
+            "rating": 8,
+            "content": "Bonito e raro, mas exige respeito nas curvas, a suspensão é do tempo antigo."
+        },
+        {
+            "_id": 12,
+            "carId": 4,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-05-04T17:55-0300",
+            "rating": 9,
+            "content": "As faixas de competição deixam o carro ainda mais icônico."
+        },
+        {
+            "_id": 13,
+            "carId": 5,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-03-12T09:55-0300",
+            "rating": 9,
+            "content": "Motor central por esse preço é revolucionário. Impressiona na pista e na cidade."
+        },
+        {
+            "_id": 14,
+            "carId": 5,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-05-19T08:55-0300",
+            "rating": 9,
+            "content": "Acelera como um supercarro e ainda é confortável. Excelente custo-benefício."
+        },
+        {
+            "_id": 15,
+            "carId": 5,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-08-16T18:55-0300",
+            "rating": 8,
+            "content": "O interior é bem moderno, mas os botões do console podiam ser mais simples."
+        },
+        {
+            "_id": 16,
+            "carId": 6,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-09-25T13:40-0300",
+            "rating": 10,
+            "content": "O motor 2JZ é lendário. Aguenta potência que nenhum outro aguenta."
+        },
+        {
+            "_id": 17,
+            "carId": 6,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-04-12T12:12-0300",
+            "rating": 9,
+            "content": "Imortalizado nos filmes e nos videogames. Um ícone da cultura jovem."
+        },
+        {
+            "_id": 18,
+            "carId": 6,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-03-23T20:12-0300",
+            "rating": 9,
+            "content": "Bonito, rápido e fácil de modificar. O que mais poderia pedir?"
+        },
+        {
+            "_id": 19,
+            "carId": 7,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-09-19T12:55-0300",
+            "rating": 9,
+            "content": "Entrega números de carro de um milhão de dólares por muito menos."
+        },
+        {
+            "_id": 20,
+            "carId": 7,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-06-11T19:40-0300",
+            "rating": 8,
+            "content": "A tração integral dá muita confiança. O câmbio, porém, é meio barulhento."
+        },
+        {
+            "_id": 21,
+            "carId": 7,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-08-20T09:00-0300",
+            "rating": 9,
+            "content": "O apelido Godzilla é mais do que merecido. Domina as pistas."
+        },
+        {
+            "_id": 22,
+            "carId": 8,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-04-06T20:25-0300",
+            "rating": 9,
+            "content": "Um supercarro japonês que dá para usar no dia a dia sem dor de cabeça."
+        },
+        {
+            "_id": 23,
+            "carId": 8,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-03-16T14:00-0300",
+            "rating": 10,
+            "content": "A influência do Senna no acerto é nítida. A direção é perfeita."
+        },
+        {
+            "_id": 24,
+            "carId": 8,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-07-25T16:55-0300",
+            "rating": 8,
+            "content": "Não é o mais potente, mas a leveza e o equilíbrio compensam."
+        },
+        {
+            "_id": 25,
+            "carId": 9,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-09-11T19:25-0300",
+            "rating": 10,
+            "content": "Referência absoluta em esportivos compactos. Feito para curvas."
+        },
+        {
+            "_id": 26,
+            "carId": 9,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-03-19T20:40-0300",
+            "rating": 9,
+            "content": "Um clássico que ainda ensina muito sobre como um carro deve responder."
+        },
+        {
+            "_id": 27,
+            "carId": 9,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-09-27T09:25-0300",
+            "rating": 9,
+            "content": "Simples, leve e muito divertido. Os sedãs de hoje não têm essa pegada."
+        },
+        {
+            "_id": 28,
+            "carId": 10,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-02-23T18:00-0300",
+            "rating": 10,
+            "content": "As portas asa de gaivota são uma obra de engenharia e de design."
+        },
+        {
+            "_id": 29,
+            "carId": 10,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-09-24T19:25-0300",
+            "rating": 9,
+            "content": "Um carro à frente do seu tempo. A injeção direta era coisa de avião."
+        },
+        {
+            "_id": 30,
+            "carId": 10,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-07-10T19:40-0300",
+            "rating": 8,
+            "content": "Lindo, mas entrar e sair do carro é um exercício de ginástica."
+        },
+        {
+            "_id": 31,
+            "carId": 11,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-04-01T15:25-0300",
+            "rating": 10,
+            "content": "Mais de 1.000 cv num carro de rua. Mudou o que achávamos possível."
+        },
+        {
+            "_id": 32,
+            "carId": 11,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-02-20T09:40-0300",
+            "rating": 9,
+            "content": "A engenharia por trás do W16 é impressionante. Um marco da indústria."
+        },
+        {
+            "_id": 33,
+            "carId": 11,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-04-07T20:25-0300",
+            "rating": 8,
+            "content": "Fantástico, mas o custo de manutenção é de outro planeta."
+        },
+        {
+            "_id": 34,
+            "carId": 12,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-08-24T11:40-0300",
+            "rating": 10,
+            "content": "A posição de dirigir no centro é genial. Obra-prima de Gordon Murray."
+        },
+        {
+            "_id": 35,
+            "carId": 12,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-04-28T15:00-0300",
+            "rating": 10,
+            "content": "O motor BMW V12 e o revestimento de ouro no cofre: puro luxo técnico."
+        },
+        {
+            "_id": 36,
+            "carId": 12,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-06-15T14:55-0300",
+            "rating": 9,
+            "content": "Segue sendo referência de analógico mesmo décadas depois."
+        },
+        {
+            "_id": 37,
+            "carId": 13,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-06-05T21:40-0300",
+            "rating": 9,
+            "content": "Tração integral, motor central e som de V10. Receita perfeita."
+        },
+        {
+            "_id": 38,
+            "carId": 13,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-08-23T14:25-0300",
+            "rating": 9,
+            "content": "Dirigir no dia a dia é tranquilo, e na pista ele surpreende."
+        },
+        {
+            "_id": 39,
+            "carId": 13,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-04-08T10:00-0300",
+            "rating": 8,
+            "content": "Muito bonito e rápido. Só achei o espaço interno um pouco justo."
+        },
+        {
+            "_id": 40,
+            "carId": 14,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-02-05T11:12-0300",
+            "rating": 10,
+            "content": "Cada brasileiro tem uma história com o Fusca. Um verdadeiro patrimônio nacional."
+        },
+        {
+            "_id": 41,
+            "carId": 14,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-04-16T21:55-0300",
+            "rating": 8,
+            "content": "Não é rápido, mas é cheio de personalidade e muito fácil de consertar."
+        },
+        {
+            "_id": 42,
+            "carId": 14,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-04-09T12:00-0300",
+            "rating": 9,
+            "content": "Simples, resistente e simpático. O motor a ar tem um som inconfundível."
+        },
+        {
+            "_id": 43,
+            "carId": 14,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-07-14T16:25-0300",
+            "rating": 10,
+            "content": "Meu avô teve um e era a alegria da família."
+        },
+        {
+            "_id": 44,
+            "carId": 15,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-02-05T19:55-0300",
+            "rating": 9,
+            "content": "O primeiro esportivo de verdade que muita gente conheceu no Brasil."
+        },
+        {
+            "_id": 45,
+            "carId": 15,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-08-15T22:55-0300",
+            "rating": 9,
+            "content": "Pequeno, leve e muito esperto. Hoje é item de colecionador."
+        },
+        {
+            "_id": 46,
+            "carId": 15,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-03-13T14:40-0300",
+            "rating": 8,
+            "content": "Gostoso de dirigir, mas a segurança da época era bem básica."
+        },
+        {
+            "_id": 47,
+            "carId": 16,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-02-16T18:40-0300",
+            "rating": 10,
+            "content": "Louco do jeito certo. Foi feito para a arrancada e entrega."
+        },
+        {
+            "_id": 48,
+            "carId": 16,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-09-07T09:12-0300",
+            "rating": 8,
+            "content": "Impressionante em linha reta, mas pesado nas curvas."
+        },
+        {
+            "_id": 49,
+            "carId": 16,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-02-06T09:25-0300",
+            "rating": 9,
+            "content": "Empinar na largada é algo que eu nunca imaginei ver num carro de rua."
+        },
+        {
+            "_id": 50,
+            "carId": 17,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-04-04T08:55-0300",
+            "rating": 9,
+            "content": "Homenagem perfeita ao GT40. Moderno sem perder a alma clássica."
+        },
+        {
+            "_id": 51,
+            "carId": 17,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-02-18T09:25-0300",
+            "rating": 9,
+            "content": "O compressor e o ronco do V8 são viciantes. Lindíssimo de qualquer ângulo."
+        },
+        {
+            "_id": 52,
+            "carId": 17,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-08-03T21:12-0300",
+            "rating": 8,
+            "content": "Divertido e raro, só é meio apertado por dentro."
+        },
+        {
+            "_id": 53,
+            "carId": 18,
+            "user": {
+                "userId": 2,
+                "email": "bruno.lima@email.com",
+                "name": "Bruno Lima"
+            },
+            "datetime": "2026-07-05T18:25-0300",
+            "rating": 10,
+            "content": "Elegância pura. Impossível não lembrar do 007 ao ver esse carro."
+        },
+        {
+            "_id": 54,
+            "carId": 18,
+            "user": {
+                "userId": 4,
+                "email": "diego.martins@email.com",
+                "name": "Diego Martins"
+            },
+            "datetime": "2026-03-20T13:40-0300",
+            "rating": 9,
+            "content": "Um clássico britânico que une conforto, estilo e desempenho."
+        },
+        {
+            "_id": 55,
+            "carId": 18,
+            "user": {
+                "userId": 9,
+                "email": "carlos.andrade@s-car.com",
+                "name": "Carlos Andrade"
+            },
+            "datetime": "2026-09-04T21:40-0300",
+            "rating": 8,
+            "content": "Lindo de ver, mas dirigir exige cuidado com o jeito antigo."
+        },
+        {
+            "_id": 56,
+            "carId": 19,
+            "user": {
+                "userId": 7,
+                "email": "giovana.alves@email.com",
+                "name": "Giovana Alves"
+            },
+            "datetime": "2026-03-16T15:25-0300",
+            "rating": 10,
+            "content": "A aceleração é absurda e silenciosa. Parece que o carro dobra o espaço."
+        },
+        {
+            "_id": 57,
+            "carId": 19,
+            "user": {
+                "userId": 5,
+                "email": "elisa.ferreira@email.com",
+                "name": "Elisa Ferreira"
+            },
+            "datetime": "2026-06-05T09:25-0300",
+            "rating": 8,
+            "content": "Rapidíssimo, mas o volante em formato retangular não me conquistou."
+        },
+        {
+            "_id": 58,
+            "carId": 19,
+            "user": {
+                "userId": 8,
+                "email": "henrique.costa@email.com",
+                "name": "Henrique Costa"
+            },
+            "datetime": "2026-02-16T21:12-0300",
+            "rating": 9,
+            "content": "Mostra o futuro dos esportivos. Tecnologia impressionante."
+        },
+        {
+            "_id": 59,
+            "carId": 20,
+            "user": {
+                "userId": 3,
+                "email": "camila.rocha@email.com",
+                "name": "Camila Rocha"
+            },
+            "datetime": "2026-04-07T16:25-0300",
+            "rating": 10,
+            "content": "Cada detalhe parece joia. Uma verdadeira escultura de carbono."
+        },
+        {
+            "_id": 60,
+            "carId": 20,
+            "user": {
+                "userId": 6,
+                "email": "fabio.santos@email.com",
+                "name": "Fábio Santos"
+            },
+            "datetime": "2026-06-23T16:00-0300",
+            "rating": 9,
+            "content": "Sonoridade do V12 AMG e acabamento artesanal. Muito exclusivo."
+        },
+        {
+            "_id": 61,
+            "carId": 20,
+            "user": {
+                "userId": 1,
+                "email": "ana.souza@email.com",
+                "name": "Ana Souza"
+            },
+            "datetime": "2026-06-21T21:00-0300",
+            "rating": 9,
+            "content": "Um carro que se admira tanto parado quanto em movimento."
+        }
+    ]
+}

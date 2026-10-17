@@ -1,0 +1,424 @@
+{
+    "carros": [
+        {
+            "_id": 1,
+            "datetime": "2026-01-01T12:00-0300",
+            "brand": {
+                "name": "Ferrari",
+                "color": "#D40000"
+            },
+            "car": {
+                "name": "F40",
+                "description": "Último Ferrari aprovado pessoalmente por Enzo Ferrari, criado para celebrar os 40 anos da marca. Carroceria leve em kevlar e fibra de carbono, sem luxos e totalmente focada na pista.",
+                "performance": "V8 2.9 biturbo de 478 cv; 0 a 100 km/h em cerca de 4,1 s.",
+                "year": 1987,
+                "topSpeed": 324,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Ferrari F40.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 2,
+            "datetime": "2026-01-02T12:00-0300",
+            "brand": {
+                "name": "Lamborghini",
+                "color": "#E3B100"
+            },
+            "car": {
+                "name": "Countach LP 5000 QV",
+                "description": "Ícone do design em cunha dos anos 80, famoso pelas portas que abrem para cima (estilo tesoura). Foi o carro dos pôsteres de parede de uma geração inteira.",
+                "performance": "V12 5.2 de 455 cv; 0 a 100 km/h em cerca de 4,9 s.",
+                "year": 1985,
+                "topSpeed": 295,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "lamborguini.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 3,
+            "datetime": "2026-01-03T12:00-0300",
+            "brand": {
+                "name": "Porsche",
+                "color": "#B8860B"
+            },
+            "car": {
+                "name": "911 Carrera RS 2.7",
+                "description": "Versão leve e homologada para corrida do 911, com o famoso 'rabo de pato' traseiro. Hoje é um dos Porsches clássicos mais valorizados do mundo.",
+                "performance": "Boxer de 6 cilindros 2.7 com 210 cv; 0 a 100 km/h em cerca de 5,8 s.",
+                "year": 1973,
+                "topSpeed": 245,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "porche_991.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 4,
+            "datetime": "2026-01-04T12:00-0300",
+            "brand": {
+                "name": "Ford",
+                "color": "#003478"
+            },
+            "car": {
+                "name": "Mustang Shelby GT350",
+                "description": "Versão de alto desempenho do Mustang preparada por Carroll Shelby, com as clássicas faixas de competição. Nasceu para dominar as pistas e virou símbolo dos muscle cars.",
+                "performance": "V8 4.7 de cerca de 306 cv; 0 a 100 km/h em cerca de 6,5 s.",
+                "year": 1965,
+                "topSpeed": 210,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "1965 Shelby GT 350.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 5,
+            "datetime": "2026-01-05T12:00-0300",
+            "brand": {
+                "name": "Chevrolet",
+                "color": "#C9A227"
+            },
+            "car": {
+                "name": "Corvette Stingray (C8)",
+                "description": "Primeira geração do Corvette com motor central-traseiro. Entrega números de supercar por uma fração do preço dos rivais europeus.",
+                "performance": "V8 6.2 de cerca de 500 cv; 0 a 100 km/h em cerca de 2,9 s (Z51).",
+                "year": 2020,
+                "topSpeed": 312,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "coverte.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 6,
+            "datetime": "2026-01-06T12:00-0300",
+            "brand": {
+                "name": "Toyota",
+                "color": "#EB0A1E"
+            },
+            "car": {
+                "name": "Supra (A80)",
+                "description": "Lenda dos esportivos japoneses, conhecida pelo motor 2JZ, capaz de aguentar potências enormes. Estrela de filmes e queridinha da cultura tuning.",
+                "performance": "6 cilindros 3.0 biturbo (2JZ-GTE), de 280 a 320 cv; 0 a 100 km/h em cerca de 5 s.",
+                "year": 1993,
+                "topSpeed": 250,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Toyota supra mk4 42.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 7,
+            "datetime": "2026-01-07T12:00-0300",
+            "brand": {
+                "name": "Nissan",
+                "color": "#C3002F"
+            },
+            "car": {
+                "name": "GT-R (R35)",
+                "description": "Apelidado de 'Godzilla', superou esportivos bem mais caros em pista graças à tração integral e ao câmbio de dupla embreagem.",
+                "performance": "V6 3.8 biturbo de 480 cv e tração integral; 0 a 100 km/h em cerca de 3,5 s.",
+                "year": 2007,
+                "topSpeed": 310,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "gtr 35.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 8,
+            "datetime": "2026-01-08T12:00-0300",
+            "brand": {
+                "name": "Honda",
+                "color": "#CC0000"
+            },
+            "car": {
+                "name": "NSX",
+                "description": "Primeiro esportivo de carroceria toda em alumínio. Desenvolvido com a ajuda de Ayrton Senna, provou que um supercarro podia ser confiável no dia a dia.",
+                "performance": "V6 3.0 VTEC de cerca de 270 a 280 cv; 0 a 100 km/h em cerca de 5,5 s.",
+                "year": 1990,
+                "topSpeed": 270,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "ACURA NSX.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 9,
+            "datetime": "2026-01-09T12:00-0300",
+            "brand": {
+                "name": "BMW",
+                "color": "#1C69D4"
+            },
+            "car": {
+                "name": "M3 (E30)",
+                "description": "A primeira geração do M3 foi criada para homologar o carro nas competições de turismo. Equilíbrio e precisão que definiram a identidade da divisão M.",
+                "performance": "4 cilindros 2.3 de cerca de 200 cv; 0 a 100 km/h em cerca de 6,7 s.",
+                "year": 1986,
+                "topSpeed": 235,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "bmw m3.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 10,
+            "datetime": "2026-01-10T12:00-0300",
+            "brand": {
+                "name": "Mercedes-Benz",
+                "color": "#6D7A83"
+            },
+            "car": {
+                "name": "300 SL 'Asa de Gaivota'",
+                "description": "Famoso pelas portas que abrem para cima, foi um dos carros de produção mais rápidos de sua época e um dos primeiros com injeção direta de combustível.",
+                "performance": "6 cilindros 3.0 com injeção direta de 215 cv; 0 a 100 km/h em cerca de 9 s.",
+                "year": 1954,
+                "topSpeed": 260,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Broad Arrow Auctions _ 1955 Mercedes-Benz 300 SL Gullwing Coupe.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 11,
+            "datetime": "2026-01-11T12:00-0300",
+            "brand": {
+                "name": "Bugatti",
+                "color": "#1F3A93"
+            },
+            "car": {
+                "name": "Veyron 16.4",
+                "description": "Quebrou a barreira dos 1.000 cv em um carro de rua e passou dos 400 km/h. Marcou uma nova era na busca pelo carro de produção mais rápido do mundo.",
+                "performance": "W16 8.0 quad-turbo de 1.001 cv; 0 a 100 km/h em cerca de 2,5 s.",
+                "year": 2005,
+                "topSpeed": 407,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Used Bugatti Veyron Grand Sport Vitesse for sale _ Romans International.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 12,
+            "datetime": "2026-01-12T12:00-0300",
+            "brand": {
+                "name": "McLaren",
+                "color": "#FF8000"
+            },
+            "car": {
+                "name": "F1",
+                "description": "Projetado por Gordon Murray, com posição de pilotagem central. Em 1998 se tornou o carro de produção mais rápido do mundo, recorde que durou anos.",
+                "performance": "V12 6.1 BMW de 627 cv; 0 a 100 km/h em cerca de 3,2 s.",
+                "year": 1992,
+                "topSpeed": 391,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "1996 MCLAREN F1.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 13,
+            "datetime": "2026-01-13T12:00-0300",
+            "brand": {
+                "name": "Audi",
+                "color": "#BB0A30"
+            },
+            "car": {
+                "name": "R8 V10",
+                "description": "Supercarro 'de todo dia', com motor central e tração integral. Aparece em filmes e é elogiado pelo som do V10 e pela facilidade de dirigir.",
+                "performance": "V10 5.2 de 525 cv e tração integral quattro; 0 a 100 km/h em cerca de 3,9 s.",
+                "year": 2009,
+                "topSpeed": 316,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Blog - Demon Graphics.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 14,
+            "datetime": "2026-01-14T12:00-0300",
+            "brand": {
+                "name": "Volkswagen",
+                "color": "#001E50"
+            },
+            "car": {
+                "name": "Fusca 1300",
+                "description": "O carro mais querido do Brasil. Simples, resistente e fácil de consertar, motorizou o país por décadas. A história do projeto começou em 1938, na Alemanha.",
+                "performance": "Motor boxer 1.3 a ar de cerca de 46 cv; 0 a 100 km/h em mais de 20 s.",
+                "year": 1967,
+                "topSpeed": 120,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "fusca.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 15,
+            "datetime": "2026-01-15T12:00-0300",
+            "brand": {
+                "name": "Volkswagen",
+                "color": "#001E50"
+            },
+            "car": {
+                "name": "Gol GTI",
+                "description": "O esportivo que fez a cabeça dos brasileiros nos anos 90. Compacto, leve e com injeção eletrônica, virou objeto de desejo e é muito valorizado hoje.",
+                "performance": "4 cilindros 2.0 com injeção de cerca de 120 cv; 0 a 100 km/h em cerca de 9,5 s.",
+                "year": 1989,
+                "topSpeed": 190,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "AP_ o motor mais popular da Volkswagen tem herança Mercedes-Benz.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 16,
+            "datetime": "2026-01-16T12:00-0300",
+            "brand": {
+                "name": "Dodge",
+                "color": "#D1171D"
+            },
+            "car": {
+                "name": "Challenger SRT Demon",
+                "description": "Feito para a arrancada. Foi o primeiro carro de produção capaz de empinar as rodas dianteiras na largada, com direito a modo de pista dedicado.",
+                "performance": "V8 6.2 supercharged de até 840 hp; 0 a 100 km/h em cerca de 2,3 s.",
+                "year": 2018,
+                "topSpeed": 270,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "Hennessey Demon 1700 Twin-Turbo (LC) '2024.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 17,
+            "datetime": "2026-01-17T12:00-0300",
+            "brand": {
+                "name": "Ford",
+                "color": "#003478"
+            },
+            "car": {
+                "name": "Ford GT",
+                "description": "Releitura moderna do lendário GT40 que venceu Le Mans nos anos 60. Lançado para comemorar os 100 anos da Ford.",
+                "performance": "V8 5.4 supercharged de 550 hp; 0 a 100 km/h em cerca de 3,5 s.",
+                "year": 2005,
+                "topSpeed": 330,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "2005 FORD GT.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 18,
+            "datetime": "2026-01-18T12:00-0300",
+            "brand": {
+                "name": "Aston Martin",
+                "color": "#00665E"
+            },
+            "car": {
+                "name": "DB5",
+                "description": "Eternizado como o carro do agente 007 em 'Goldfinger'. Une elegância britânica e desempenho de grã-turismo.",
+                "performance": "6 cilindros 4.0 de cerca de 282 hp; 0 a 100 km/h em cerca de 7,1 s.",
+                "year": 1963,
+                "topSpeed": 230,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "1964 Aston Martin DB5.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 19,
+            "datetime": "2026-01-19T12:00-0300",
+            "brand": {
+                "name": "Tesla",
+                "color": "#CC0000"
+            },
+            "car": {
+                "name": "Model S Plaid",
+                "description": "Sedã elétrico que acelera mais que muitos supercarros. Mostra como a eletrificação mudou a corrida por desempenho.",
+                "performance": "Três motores elétricos, cerca de 1.020 hp; 0 a 100 km/h em cerca de 2,1 s.",
+                "year": 2021,
+                "topSpeed": 322,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "2022 Tesla Model S Plaid.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": 20,
+            "datetime": "2026-01-20T12:00-0300",
+            "brand": {
+                "name": "Pagani",
+                "color": "#7A6A53"
+            },
+            "car": {
+                "name": "Huayra",
+                "description": "Hipercarro italiano feito à mão, com carroceria em fibra de carbono e aerofólios ativos. Um verdadeiro objeto de arte sobre rodas.",
+                "performance": "V12 6.0 biturbo AMG de 730 cv; 0 a 100 km/h em cerca de 3,3 s.",
+                "year": 2012,
+                "topSpeed": 370,
+                "blobs": [
+                    {
+                        "type": "image",
+                        "file": "PAGANI Huayra - Tom Hartley Jnr.jpeg"
+                    }
+                ]
+            }
+        }
+    ]
+}
